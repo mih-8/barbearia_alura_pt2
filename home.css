@@ -10,7 +10,7 @@ body{
 
 .titulo-principal {
 	text-align: center;
-	font-size: 2em;
+    font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 .principal p{
-	margin: 0 0 1em;
+	margin: 0 0 1em
 }
 
 .principal strong{
@@ -39,7 +39,7 @@ body{
 }
 
 .utensilios {
-	width:120px;
+	width: 120px;
 	float: left;
 	margin: 0 20px 20px ;
 }
@@ -62,13 +62,6 @@ body{
 
 .imagem-beneficios {
 	width: 60%;
-	opacity: 1;
-	transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #000000;
-}
-
-.imagem-beneficios:hover{
-	opacity: 0.3;
 }
 
 .itens {
@@ -77,10 +70,6 @@ body{
 
 .itens:first-child{
 	font-weight: bold;
-}
-
-.itens:before{
-	content: "🪒";
 }
 
 .mapa {
