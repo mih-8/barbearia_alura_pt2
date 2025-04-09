@@ -49,4 +49,20 @@ ul {
 
 .imagem_beneficios {
    width: 50%;
+}                            
+@media screen and{(max-width: 480px;)
+  .caixa,.principal,.conteudo-beneficios,.mapa-conteudo,.video{
+   width: auto;
+  } 
+
+  h1{
+   text-align:center;
 }
+
+  nav{ position:static;
+  }
+
+  .lista-beneficios { 
+      width:100% 
+   }
+
